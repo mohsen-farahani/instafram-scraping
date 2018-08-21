@@ -1,0 +1,24 @@
+{
+    "name": "mohsen-farahani/instagram-scraping",
+    "description": "Instagram Data Scraping from Public API",
+    "authors": [
+        {
+            "name": "mohsen",
+            "email": "civil.farahani@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "autoload": {
+        "psr-4": {
+            "Mohsen\\InstagramScraping\\": "src"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Mohsen\\InstagramScraping\\InstagramScrapingProvider"
+            ]
+        }
+    },
+    "require": {}
+}
